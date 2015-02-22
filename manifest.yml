@@ -1,0 +1,17 @@
+applications:
+- services:
+  - mongolab
+  disk_quota: 1024M
+  host: nodecellar-sample
+  name: nodecellar-sample
+  description: This application demonstrates how to use the MongoLab service with a basic Node.js application.
+  image: https://console.ng.bluemix.net/rest/templates/CloudantJavaBPTemplate/cachedIcon/large/0
+  path: server.js
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
+  
+declared-services:
+  mongolab:
+    label: MongoLab-nodecellar
+    plan:  sandbox

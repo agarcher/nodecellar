@@ -35,3 +35,5 @@ The application is also hosted online. You can test it [here](http://nodecellar.
 
         $ heroku open
 
+
+<a href="https://bluemix.net/deploy?repository=https://github.com/agarcher/nodecellar.git" target="_blank"><img src="http://bluemix.net/deploy/button.png" alt="Bluemix button" /></a>
