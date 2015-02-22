@@ -1,6 +1,6 @@
 applications:
 - services:
-  - mongolab
+  - MongoLab-nodecellar
   disk_quota: 1024M
   host: nodecellar-sample
   name: nodecellar-sample
@@ -12,6 +12,6 @@ applications:
   memory: 512M
   
 declared-services:
-  mongolab:
-    label: MongoLab-nodecellar
+  MongoLab-nodecellar:
+    label: mongolab
     plan:  sandbox
